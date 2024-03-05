@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .box{
+        @apply  border rounded  border-solid p-5 border-soft-bg
+    }
+}
